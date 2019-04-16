@@ -22,14 +22,16 @@ Adds variety of functionalities/models on the top of internal WPF 3D model (Medi
 [**Examples:**](/develop/Source/Examples)
 Please download full source code to run examples. Or download [compiled version](https://ci.appveyor.com/project/objorke/helix-toolkit/branch/develop/artifacts)
 
+[![License: MIT](https://img.shields.io/github/license/helix-toolkit/helix-toolkit.svg?style=popout)](https://github.com/helix-toolkit/helix-toolkit/blob/develop/LICENSE)
 [![Build status](https://ci.appveyor.com/api/projects/status/tmqafdk9p7o98gw7?svg=true)](https://ci.appveyor.com/project/objorke/helix-toolkit)
+[![Release](https://img.shields.io/github/release/helix-toolkit/helix-toolkit.svg?style=popout)](https://www.nuget.org/packages?q=Helix-Toolkit)
+[![Chat](https://img.shields.io/gitter/room/helix-toolkit/helix-toolkit.svg)](https://gitter.im/helix-toolkit/helix-toolkit)
 
 Description         | Value
 --------------------|-----------------------
-License             | The MIT License (MIT)
-Web page            | http://helix-toolkit.org/
+Web page            | http://helix-toolkit.github.io/
 Wiki                | https://github.com/helix-toolkit/helix-toolkit/wiki
-Documentation       | http://docs.helix-toolkit.org/
+Documentation       | http://helix-toolkit.readthedocs.io/
 Chat                | https://gitter.im/helix-toolkit/helix-toolkit
 Source repository   | http://github.com/helix-toolkit/helix-toolkit
 Latest build        | http://ci.appveyor.com/project/objorke/helix-toolkit
@@ -58,8 +60,16 @@ FXAA, Order Independant Transparent Rendering, Particle system, Tessellation.
 #### 4. [Wiki](https://github.com/helix-toolkit/helix-toolkit/wiki) and useful [External Resources](https://github.com/helix-toolkit/helix-toolkit/wiki/External-References) on Computer Graphics.
 
 ## News
+#### 2019-02-16
+[v2.6.1](https://github.com/helix-toolkit/helix-toolkit/tree/release/2.6.1) releases are available on nuget. [Release Note](/CHANGELOG.md)
+- [WPF](https://www.nuget.org/packages/HelixToolkit.Wpf/2.6.1)
+- [WPF.SharpDX](https://www.nuget.org/packages/HelixToolkit.Wpf.SharpDX/2.6.1)
+- [UWP](https://www.nuget.org/packages/HelixToolkit.UWP/2.6.1)
+- [SharpDX.Core](https://www.nuget.org/packages/HelixToolkit.SharpDX.Core/2.6.1)
+- [SharpDX.Assimp](https://www.nuget.org/packages/HelixToolkit.SharpDX.Assimp/2.6.1)
+
 #### 2019-01-04
-[v2.6.0](https://github.com/helix-toolkit/helix-toolkit/tree/release/2.6.0) releases are available on nuget. [Release Note](https://github.com/helix-toolkit/helix-toolkit/blob/master/CHANGELOG.md)
+[v2.6.0](https://github.com/helix-toolkit/helix-toolkit/tree/release/2.6.0) releases are available on nuget. [Release Note](/CHANGELOG.md)
 - [WPF](https://www.nuget.org/packages/HelixToolkit.Wpf/2.6.0)
 - [WPF.SharpDX](https://www.nuget.org/packages/HelixToolkit.Wpf.SharpDX/2.6.0)
 - [UWP](https://www.nuget.org/packages/HelixToolkit.UWP/2.6.0)
@@ -72,26 +82,13 @@ FXAA, Order Independant Transparent Rendering, Particle system, Tessellation.
 
 
 #### 2018-10-19
-[V2.5.1](https://github.com/helix-toolkit/helix-toolkit/tree/hotfix/2.5.0) releases are available on nuget. [Release Note](https://github.com/helix-toolkit/helix-toolkit/blob/master/CHANGELOG.md)
+[V2.5.1](https://github.com/helix-toolkit/helix-toolkit/tree/hotfix/2.5.0) releases are available on nuget. [Release Note](/CHANGELOG.md)
 
 **Hotfix: Wrong type cast causes null reference exception when uses custom ViewBox texture.** (SharpDX Version Only)
 - [WPF](https://www.nuget.org/packages/HelixToolkit.Wpf/2.5.1)
 - [WPF.SharpDX](https://www.nuget.org/packages/HelixToolkit.Wpf.SharpDX/2.5.1)
 - [UWP](https://www.nuget.org/packages/HelixToolkit.UWP/2.5.1)
 
-
-#### 2018-10-19
-[V2.5.0](https://github.com/helix-toolkit/helix-toolkit/tree/release/2.5.0) releases are available on nuget. [Release Note](https://github.com/helix-toolkit/helix-toolkit/blob/master/CHANGELOG.md)
-- [WPF](https://www.nuget.org/packages/HelixToolkit.Wpf/2.5.0)
-- [WPF.SharpDX](https://www.nuget.org/packages/HelixToolkit.Wpf.SharpDX/2.5.0)
-- [UWP](https://www.nuget.org/packages/HelixToolkit.UWP/2.5.0)
-
-#### 2018-08-26
-[V2.4.0](https://github.com/helix-toolkit/helix-toolkit/tree/release/2.4.0) releases are available on nuget. [Release Note](https://github.com/helix-toolkit/helix-toolkit/blob/master/CHANGELOG.md)
-- [WPF](https://www.nuget.org/packages/HelixToolkit.Wpf/2.4.0)
-- [WPF.SharpDX](https://www.nuget.org/packages/HelixToolkit.Wpf.SharpDX/2.4.0)
-- [UWP](https://www.nuget.org/packages/HelixToolkit.UWP/2.4.0)
-
 #### Changes (Please refer to [Release Note](https://github.com/helix-toolkit/helix-toolkit/blob/master/CHANGELOG.md) for details)
 
-##### Note: 2.0 Breaking changes from version 1.x.x. (HelixToolkit.SharpDX only) see [ChangeLog](https://github.com/helix-toolkit/helix-toolkit/blob/develop/CHANGELOG.md)
+##### Note: 2.0 Breaking changes from version 1.x.x. (HelixToolkit.SharpDX only) see [ChangeLog](/CHANGELOG.md)
